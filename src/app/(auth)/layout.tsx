@@ -2,8 +2,10 @@ import React, { ReactNode } from "react";
 
 const AuthRootLayout = ({ children }: { children: ReactNode }) => {
   return (
-    <div className="bg-[#FF6767] w-full min-h-screen bg-[url(/images/bg-auth.png)] ">
-      {children}
+    <div className="bg-red-snap min-h-screen bg-auth flex-center ">
+      <div className="bg-white rounded-2xl w-full max-w-5xl p-8 py-28">
+        {children}
+      </div>
     </div>
   );
 };
